@@ -1,21 +1,23 @@
 # PassGen
 ### An (almost) completely open source password generator and manager/keychain for those who live in the terminal
 
-Your passwords should stay with you. Passgen never uploads anything to the cloud, or to anywhere on the internet for that matter. The only way people get your passwords from passgen is if you screw up.
+Your passwords should stay with you. 
+
+Passgen never uploads anything to the cloud, or to anywhere on the internet for that matter. The only way people get your passwords from passgen is if you screw up.
+
 We've made sure to use cryptologically secure random generators, safe loading from files, and aes-256 encryption on passwords stored.
+
 In addition, your passwords are never kept in memory. From the time you generate your passwords to the time you retrieve them from your keychain they are kept encrypted and only decrypted when printing to the terminal.
+
 Finally, your keychain is stored behind a password of your choosing, so no one can access your passwords just by hopping on your terminal.
 
 ### You can use passgen in any way you want:
-
-Purely as a password generator, passwords by default are never stored
-
-Password manager, with functionality for:
-
+- Purely as a password generator, passwords by default are never stored
+- Password manager, with functionality for:
 	- Username
 	- Password
 	- Site tag
-Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
+- Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
 
 The choice is yours!
 
@@ -45,8 +47,8 @@ Imports a previously created password (as well as other user data, if available)
 Password flag, used only for importing externally created passwords
 
 ## Wishlist/To-Do
-	[ ] Pass phrases (instead of random characters)
-	[ ] 2FA
+    [ ] Pass phrases (instead of random characters)
+    [ ] 2FA
     [ ] Installable on brew, gh-packages, snap, apt, etc.
     [ ] Improved search w/ regex for get_from_keychain (which needs to be fixed (i.e. `--find`))
     [ ] Multiple encryption options
