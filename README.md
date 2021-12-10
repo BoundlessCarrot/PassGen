@@ -19,14 +19,14 @@ The choice is yours!
 ## Usage
 `python3 generator_code.py [OPTIONS]`
 
-### Options:
-	- `-l`, `--length` 			--> Length of outputted password, 18 by default
-	- `-t`, `--tag` 			--> Adds the password's use to the keychain
-	- `-u`, `--user` 			--> Adds the respective username for the password to the keychain
-	- `-f`, `--find`			--> Finds previously generated passwords by tag if they have been stored in keychain
-	- `-s`, `--save` 			--> Tells passgen to save the generated password (as well as other user data, if available) in keychain under aes-256 encryption. Deactivated by default!
-	- `-i`, `--import_data`		--> Imports a previously created password (as well as other user data, if available) to the keychain
-	- `-p`, `--password` 		--> Password flag, used only for importing externally created passwords
+### Options
+	`-l`, `--length` 		--> Length of outputted password, 18 by default
+	`-t`, `--tag` 			--> Adds the password's use to the keychain
+	`-u`, `--user` 			--> Adds the respective username for the password to the keychain
+	`-f`, `--find`			--> Finds previously generated passwords by tag if they have been stored in keychain
+	`-s`, `--save` 			--> Tells passgen to save the generated password (as well as other user data, if available) in keychain under aes-256 encryption. Deactivated by default!
+	`-i`, `--import_data`	--> Imports a previously created password (as well as other user data, if available) to the keychain
+	`-p`, `--password` 		--> Password flag, used only for importing externally created passwords
 
 ## Wishlist/To-Do
 	- Pass phrases (instead of random characters)
@@ -39,5 +39,5 @@ The choice is yours!
 
 ## Contributing
 This is really mostly a passion project, but if you want to help please start a pull request and I'll get to it.
-If you have any suggestions, all my contacts are on my (website)[jstr.dev] at the bottom. Send me an email or something.
+If you have any suggestions, either start an issue or contact me. Most of my contacts are on my [website](jstr.dev) at the bottom. Send me an email or something :)
   
