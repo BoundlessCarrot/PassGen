@@ -8,12 +8,13 @@ Finally, your keychain is stored behind a password of your choosing, so no one c
 
 You can use passgen in any way you want:
 
-	* Purely as a password generator, passwords by default are never stored
-	* Password manager, with functionality for:
-		* Username
-		* Password
-		* Site tag
-	* Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
+Purely as a password generator, passwords by default are never stored
+Password manager, with functionality for:
+
+	- Username
+	- Password
+	- Site tag
+Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
 
 The choice is yours!
 
