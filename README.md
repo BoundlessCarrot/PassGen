@@ -6,9 +6,10 @@ We've made sure to use cryptologically secure random generators, safe loading fr
 In addition, your passwords are never kept in memory. From the time you generate your passwords to the time you retrieve them from your keychain they are kept encrypted and only decrypted when printing to the terminal.
 Finally, your keychain is stored behind a password of your choosing, so no one can access your passwords just by hopping on your terminal.
 
-You can use passgen in any way you want:
+### You can use passgen in any way you want:
 
 Purely as a password generator, passwords by default are never stored
+
 Password manager, with functionality for:
 
 	- Username
