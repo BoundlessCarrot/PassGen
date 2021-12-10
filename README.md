@@ -20,13 +20,13 @@ The choice is yours!
 `python3 generator_code.py [OPTIONS]`
 
 ### Options:
-`-l`, `--length` 		--> Length of outputted password, 18 by default
-`-t`, `--tag` 			--> Adds the password's use to the keychain
-`-u`, `--user` 			--> Adds the respective username for the password to the keychain
-`-f`, `--find`			--> Finds previously generated passwords by tag if they have been stored in keychain
-`-s`, `--save` 			--> Tells passgen to save the generated password (as well as other user data, if available) in keychain under aes-256 encryption. Deactivated by default!
-`-i`, `--import_data`	--> Imports a previously created password (as well as other user data, if available) to the keychain
-`-p`, `--password` 		--> Password flag, used only for importing externally created passwords
+	- `-l`, `--length` 			--> Length of outputted password, 18 by default
+	- `-t`, `--tag` 			--> Adds the password's use to the keychain
+	- `-u`, `--user` 			--> Adds the respective username for the password to the keychain
+	- `-f`, `--find`			--> Finds previously generated passwords by tag if they have been stored in keychain
+	- `-s`, `--save` 			--> Tells passgen to save the generated password (as well as other user data, if available) in keychain under aes-256 encryption. Deactivated by default!
+	- `-i`, `--import_data`		--> Imports a previously created password (as well as other user data, if available) to the keychain
+	- `-p`, `--password` 		--> Password flag, used only for importing externally created passwords
 
 ## Wishlist/To-Do
 	- Pass phrases (instead of random characters)
