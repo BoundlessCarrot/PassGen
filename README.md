@@ -7,6 +7,7 @@ In addition, your passwords are never kept in memory. From the time you generate
 Finally, your keychain is stored behind a password of your choosing, so no one can access your passwords just by hopping on your terminal.
 
 You can use passgen in any way you want:
+
 	* Purely as a password generator, passwords by default are never stored
 	* Password manager, with functionality for:
 		* Username
