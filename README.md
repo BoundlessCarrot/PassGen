@@ -7,12 +7,12 @@ In addition, your passwords are never kept in memory. From the time you generate
 Finally, your keychain is stored behind a password of your choosing, so no one can access your passwords just by hopping on your terminal.
 
 You can use passgen in any way you want:
-	- Purely as a password generator, passwords by default are never stored
-	- Password manager, with functionality for:
-		- Username
-		- Password
-		- Site tag
-	- Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
+	* Purely as a password generator, passwords by default are never stored
+	* Password manager, with functionality for:
+		* Username
+		* Password
+		* Site tag
+	* Password storage - you can give passgen as much or as little of your data as you want, meaning you can use another service to generate your passwords and just store them in passgen
 
 The choice is yours!
 
@@ -42,13 +42,13 @@ Imports a previously created password (as well as other user data, if available)
 Password flag, used only for importing externally created passwords
 
 ## Wishlist/To-Do
-	- Pass phrases (instead of random characters)
-	- 2FA
-    - Installable on brew, gh-packages, snap, apt, etc.
-    - improved search w/ regex for get_from_keychain (which needs to be fixed (i.e. `--find`))
-    - multiple encryption options
-    - multiple keychain file support
-    - multiple keychain file type support
+	[ ] Pass phrases (instead of random characters)
+	[ ] 2FA
+    [ ] Installable on brew, gh-packages, snap, apt, etc.
+    [ ] Improved search w/ regex for get_from_keychain (which needs to be fixed (i.e. `--find`))
+    [ ] Multiple encryption options
+    [ ] Multiple keychain file support
+    [ ] Multiple keychain file type support
 
 ## Contributing
 This is really mostly a passion project, but if you want to help please start a pull request and I'll get to it.
